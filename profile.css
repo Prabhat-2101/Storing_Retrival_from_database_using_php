@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    font-family: 'Segoe UI';
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: 35%;
+    height: 60%;
+    background-color: rgb(213, 207, 207);
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+.content header h2{
+    font-variant: small-caps;
+    text-align: center;
+}
+.content .upper{
+    display: flex;
+    width: 100%;
+    height: 60%;
+    padding: 10px;
+}
+.content .upper .uleft{
+    display: flex;
+    padding: 6px;
+    flex-direction: column;
+    gap: 15px;
+    width: 68%;
+    height: 100%;
+}
+.content .upper .uleft label{
+    font-family: 'poppins';
+}
+.content .upper .uleft input{
+    padding: 3px 4px;
+    background-color: rgb(213, 207, 207);
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-family:'Courier New';
+}
+.content .upper .uright{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+.content .upper .uright img{
+    width: 80%;
+    border-radius: 5px;
+    height: 80%;
+    box-shadow: 2px 2px 2px rgb(141, 138, 138);
+}
+.content .lower{
+    padding: 10px;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.content .lower .certificate{
+    font-family: 'poppins';
+    display: fle;
+    gap: 15px;
+}
+.content .lower .certificate input{
+    padding: 5px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media screen and (min-width:0px) and (max-width:767px) {
+    .content .upper{
+        display: block;
+        height: 45%;
+    }
+    .content{
+        width: 95%;
+        height: 55%;
+    }
+    .field{
+        display: flex;
+    }
+    .content .upper .uleft {
+        gap: 10px;
+        width: 100%;
+        height: 100%;
+    }
+    .content .upper .uleft label{
+        width: 30%;
+        font-size: 0.8rem;
+    }
+    .content .upper .uleft input{
+        width: 70%;
+    }
+    .content .upper .uright{
+        display: none;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .content{
+        width: 60%;
+        height: 50%;
+    }
+    .field{
+        display: flex;
+    }
+    .content .upper .uleft {
+        gap: 10px;
+        width: 70%;
+        height: 100%;
+    }
+    .content .upper .uleft label{
+        width: 30%;
+        font-size: 0.8rem;
+    }
+    .content .upper .uleft input{
+        width: 70%;
+    }
+}
+@media screen and (min-width:1024px){
+    .field {
+        display: flex;
+    }
+    .content .upper .uleft label{
+        width: 30%;
+        font-size: 0.8rem;
+    }
+    .content .upper .uleft input{
+        width: 70%;
+    }
+}

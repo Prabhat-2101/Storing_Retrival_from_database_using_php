@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    font-family: 'Segoe UI';
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Images/bg1.jpg);
+    background-size: cover;
+}
+.content{
+    width: 25%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 3px 3px 5px black;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.small{
+    display: none;
+}
+.content header{
+    font-variant: small-caps;
+    text-align: center;
+}
+.content .field{
+    width: 100%;
+    display: flex;
+    margin-top: 5px;
+}
+.content .field label{
+    width: 40%;
+    font-family: 'poppins';
+    padding: 2px;
+}
+.content .field input{
+    width: 55%;
+    padding: 7px;
+    border-radius: 5px;
+    font-family: 'Courier New';
+}
+.content .field textarea{
+    font-family: 'Courier New';
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.content .submit{
+    text-align: center;
+}
+.content .submit input[type=submit]{
+    width: 30%;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    font-family: 'poppins';
+}
+.content .field a{
+    text-decoration: none;
+}
+@media screen and (min-width:0px) and (max-width:767px) {
+    .content{
+        width: 95%;
+    }
+    .content .field input {
+        width: 55%;
+        padding: 4px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .content{
+        width: 50%;
+    }
+}
