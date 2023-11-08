@@ -11,7 +11,7 @@ Note: Make sure your project folder is inside root directory(for xampp xampp/htd
 
 5. Create a database with the name registration_db
 
-6. Import counselling.sql file(given inside the zip package in the SQL file folder) in your localhost
+6. Import counselling.sql file(given inside the zip package) in your localhost
 
 7. Run the script http://localhost/your_project_name
 
