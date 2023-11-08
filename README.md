@@ -1,5 +1,5 @@
 # Storing_Retrival_from_database_using_php
-/****   How to run stackholder_feedback project ****/
+/****   How to run this project ****/
 
 1. Download the zip file
 
